@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mes Diplômes</title>
+    <link href="style.css" rel="stylesheet">
+    <script src="diplomes.js" defer></script>
+    <link rel="icon" type="image/png" sizes="32x32" href="logo.png">
+</head>
+<body>
+    <div class="top">
+        <p>Mes Diplômes</p>
+    </div>
+    
+
+    <div id="boutons">
+        <a href="accueil.html"><button class="bouton">Mon CV (accueil)</button></a>
+        <a href="diplomes.html"><button class="bouton">Mes Diplômes</button></a>
+        <a href="projet.html"><button class="bouton">Mon projet</button></a>
+        <a href="portfolio.html"><button class="bouton">Mon Portfolio</button></a>
+    </div>
+    
+    
+    <br>
+    <p style="text-align: center;">Durant mon cursus, j'ai parvenu à obtenir différents diplômes/certifications qui peuvent m'être très utiles dans le futur.</p>
+    <hr>
+    <br>
+    <div id="boutons2">
+        
+        <br>
+        <button class="bouton2" onclick="diplome('bac')">Baccalauréat</button>
+        <button class="bouton2" onclick="diplome('langue')">Niveau de Langue</button>
+        <button class="bouton2" onclick="diplome('geek')">GeekSchool</button>
+    </div>
+    <img src="diplome.png" id="monImage" width="750" height="350">
+    <br>
+    
+    
+</body>
+</html>
