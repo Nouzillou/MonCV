@@ -8,10 +8,11 @@ function diplome(id){
         image = "langue.png";
     }
     else {
-        image = "geek.jpeg";
+        image = "geek.png";
     }
 
     document.getElementById("monImage").src = image;
 
 }
+
 
