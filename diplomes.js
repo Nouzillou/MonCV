@@ -2,7 +2,7 @@ function diplome(id){
     var image;
 
     if(id == 'bac'){
-        image = "bac.jpeg";
+        image = "bac.pdf";
     }
     else if(id == 'langue'){
         image = "langue.png";
@@ -12,4 +12,5 @@ function diplome(id){
     }
 
     document.getElementById("monImage").src = image;
+
 }
